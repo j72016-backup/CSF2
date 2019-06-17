@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appList>
+  <appInfo>
+    <package>ba.mtel.mgo</package>
+    <mandatory>false</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>m:go BiH</appName>
+  </appInfo>
+</appList>

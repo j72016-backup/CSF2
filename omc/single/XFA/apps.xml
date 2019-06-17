@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appList>
+  <appInfo>
+    <package>com.booking</package>
+    <mandatory>true</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>Booking.com</appName>
+  </appInfo>
+</appList>

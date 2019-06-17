@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appList>
+  <appInfo>
+    <package>pt.galp.android.evodriver.samsung</package>
+    <mandatory>false</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>Galp EvoDriver</appName>
+  </appInfo>
+  <appInfo>
+    <package>pt.sibs.android.mbway</package>
+    <mandatory>false</mandatory>
+    <downloadType>samsungapps</downloadType>
+    <appName>MB WAY</appName>
+  </appInfo>
+</appList>

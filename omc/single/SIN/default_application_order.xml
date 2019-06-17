@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+
+<!--
+Copyright (C) 2016 The Android Open Source Project
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<appOrder xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
+
+    <!-- folder : SIN -->
+    <folder 
+        launcher:screen="0" 
+        launcher:title="Singtel">        
+        <!-- Cast -->
+        <favorite 
+            launcher:screen="0" 
+            launcher:postPosition="true"
+            launcher:packageName="com.singtel.play" 
+            launcher:className="com.singtel.mioott.view.view.AcMainLoading" />
+        <!-- Hungry -->
+        <favorite 
+            launcher:screen="1" 
+            launcher:postPosition="true"
+            launcher:packageName="hgw.android.app" 
+            launcher:className="hgwr.android.app.SplashActivity" />
+        <!-- InSing MoviesApp -->
+        <favorite 
+            launcher:screen="2" 
+            launcher:postPosition="true"
+            launcher:packageName="com.insing.insingmoviesapp" 
+            launcher:className="com.insing.insingmoviesapp.HomeActivity" />
+        <!-- My Singtel -->
+        <favorite 
+            launcher:screen="3" 
+            launcher:packageName="com.singtel.mysingtel" 
+            launcher:className="com.singtel.mysingtel.ui.LoadingActivity" />
+        <!-- NewsLoop -->
+        <favorite 
+            launcher:screen="4" 
+            launcher:postPosition="true"
+            launcher:packageName="com.getnewsloop.app" 
+            launcher:className="com.singtel.aurora.test.SplashActivity" />
+        <!-- notAnooblie -->
+        <favorite 
+            launcher:screen="5" 
+            launcher:postPosition="true"
+            launcher:packageName="com.singtel.notAnoobie" 
+            launcher:className="com.singtel.notAnoobie.base.MainActivity" />
+        <!-- Singtel Dash -->
+        <favorite 
+            launcher:screen="6" 
+            launcher:postPosition="true"
+            launcher:packageName="com.SingTel.mWallet" 
+            launcher:className="com.SingTel.mWallet.activity.IntroActivity" />
+        <!-- Singtel TV GO -->
+        <favorite 
+            launcher:screen="7" 
+            launcher:postPosition="true"
+            launcher:packageName="com.singtel.miotvgo" 
+            launcher:className="com.singtel.miotvgo.MainLoading" />
+        <!-- Store & Share -->
+        <favorite 
+            launcher:screen="8" 
+            launcher:postPosition="true"
+            launcher:packageName="sg.com.singnet.mystorage.android" 
+            launcher:className="sg.com.singnet.mystorage.android.MainActivity" />
+        <!-- Tap & Fix -->
+        <favorite 
+            launcher:screen="9" 
+            launcher:postPosition="true"
+            launcher:packageName="com.kochartech.singtel.tapnfix" 
+            launcher:className="com.kochartech.singtel.tapnfix.Launcher" />	
+
+        <!-- App Deals X Singtel -->
+        <favorite 
+            launcher:screen="10" 
+            launcher:postPosition="true"
+            launcher:packageName="com.dt.ignite.offers.singtel" 
+            launcher:className="com.dt.ignite.offers.view.activity.LauncherActivity" />	
+		<!-- Singtel Connected Things -->
+        <favorite 
+            launcher:screen="11" 
+            launcher:postPosition="true"
+            launcher:packageName="com.assured.singtel.release" 
+            launcher:className="com.mteam.mfamily.ui.SplashScreenActivity" />
+    </folder>
+    <!-- folder : Samsung -->
+    <folder 
+        launcher:screen="0" 
+        launcher:title="Samsung">
+        <!-- Bixby Executor Manager -->
+        <favorite 
+            launcher:screen="0" 
+            launcher:packageName="com.samsung.android.bixby.bridge" 
+            launcher:className="com.samsung.android.bixby.LauncherActivity" />
+        <!-- Email -->
+        <favorite 
+            launcher:screen="1" 
+            launcher:packageName="com.samsung.android.email.provider" 
+            launcher:className="com.samsung.android.email.ui.activity.MessageListXL" />            
+        <!-- Galaxy Apps -->
+        <favorite 
+            launcher:screen="2" 
+            launcher:packageName="com.sec.android.app.samsungapps" 
+            launcher:className="com.sec.android.app.samsungapps.SamsungAppsMainActivity" />
+        <!-- Internet -->
+        <favorite 
+            launcher:screen="3" 
+            launcher:packageName="com.sec.android.app.sbrowser" 
+            launcher:className="com.sec.android.app.sbrowser.SBrowserMainActivity" />
+        <!-- My Files -->
+        <favorite 
+            launcher:screen="4" 
+            launcher:packageName="com.sec.android.app.myfiles" 
+            launcher:className="com.sec.android.app.myfiles.external.ui.MainActivity" />
+        <!-- Samsung Gear -->
+        <favorite
+            launcher:screen="5" 
+            launcher:packageName="com.samsung.android.app.watchmanager" 
+            launcher:className="com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity" />
+        <!-- S Health -->
+        <favorite 
+            launcher:screen="6" 
+            launcher:packageName="com.sec.android.app.shealth" 
+            launcher:className="com.samsung.android.app.shealth.home.HomeMainActivity" />
+        <!-- SmartThings -->
+        <favorite 
+            launcher:screen="7" 
+			packageName="com.samsung.android.ststub" 
+			className="com.samsung.android.ststub.BootUpDialogActivity" />      
+        <!-- Smart Tutor -->
+        <favorite 
+            launcher:screen="8" 
+            launcher:packageName="com.rsupport.rs.activity.rsupport.aas2" 
+            launcher:className="com.rsupport.rs.activity.edit.IntroActivity" />
+        <!-- Voice Recorder -->
+        <favorite 
+            launcher:screen="9" 
+            launcher:packageName="com.sec.android.app.voicenote" 
+            launcher:className="com.sec.android.app.voicenote.main.VNMainActivity" />
+        <!-- Smart Switch -->
+        <favorite 
+            launcher:screen="10" 
+            launcher:packageName="com.sec.android.easyMover" 
+            launcher:className="com.sec.android.easyMover.DistributionActivity" />
+		<!-- Samsung Members -->
+		<favorite 
+			launcher:screen="11" 
+			launcher:packageName="com.samsung.android.voc" 
+			launcher:className="com.samsung.android.voc.LauncherActivity" />			
+    </folder>
+    <!-- folder : Google -->
+    <folder 
+        launcher:screen="0" 
+        launcher:title="Google">        
+        <!-- Gmail -->
+        <favorite 
+            launcher:screen="0" 
+            launcher:packageName="com.google.android.gm" 
+            launcher:className="com.google.android.gm.ConversationListActivityGmail" />
+        <!-- Drive -->
+        <favorite 
+            launcher:screen="1" 
+            launcher:packageName="com.google.android.apps.docs" 
+            launcher:className="com.google.android.apps.docs.app.NewMainProxyActivity" />
+        <!-- Google Play Movies & TV -->
+        <favorite 
+            launcher:screen="2" 
+            launcher:packageName="com.google.android.videos" 
+            launcher:className="com.google.android.youtube.videos.EntryPoint" />
+        <!-- Duo -->
+        <favorite 
+            launcher:screen="3" 
+            launcher:packageName="com.google.android.apps.tachyon" 
+            launcher:className="com.google.android.apps.tachyon.MainActivity" />
+        <!-- Photos -->
+        <favorite
+            launcher:screen="4"
+            launcher:packageName="com.google.android.apps.photos"
+            launcher:className="com.google.android.apps.photos.home.HomeActivity" />
+    </folder>
+    <!-- folder : Microsoft Apps -->
+    <folder 
+        launcher:screen="0" 
+        launcher:title="Microsoft Apps">        
+        <!-- Word -->
+        <favorite 
+            launcher:screen="0" 
+            launcher:packageName="com.microsoft.office.word" 
+            launcher:className="com.microsoft.office.apphost.LaunchActivity" />
+        <!-- Excel -->
+        <favorite 
+            launcher:screen="1" 
+            launcher:packageName="com.microsoft.office.excel" 
+            launcher:className="com.microsoft.office.apphost.LaunchActivity" />
+        <!-- PowerPoint -->
+        <favorite 
+            launcher:screen="2" 
+            launcher:packageName="com.microsoft.office.powerpoint" 
+            launcher:className="com.microsoft.office.apphost.LaunchActivity" />
+        <!-- OneDrive -->
+        <favorite 
+            launcher:screen="3" 
+            launcher:packageName="com.microsoft.skydrive" 
+            launcher:className="com.microsoft.skydrive.MainActivity" />
+        <!-- Skype -->
+        <favorite 
+            launcher:screen="4" 
+            launcher:packageName="com.skype.raider" 
+            launcher:className="com.skype.raider.Main" />
+    </folder>
+    <!-- SGSecure -->
+    <favorite 
+        launcher:screen="0" 
+        launcher:packageName="com.ministryofhomeaffairs.sgsecure.mhasg" 
+        launcher:className="sg.mha.app.ui.SplashActivity" />
+        <!-- Google Play Store -->
+    <favorite 
+        launcher:screen="0" 
+        launcher:packageName="com.android.vending" 
+        launcher:className="com.android.vending.AssetBrowserActivity" />
+    <!-- YouTube -->
+    <favorite 
+        launcher:screen="0" 
+        launcher:packageName="com.google.android.youtube" 
+        launcher:className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" />
+    <!-- Maps -->
+    <favorite 
+        launcher:screen="0" 
+        launcher:packageName="com.google.android.apps.maps" 
+        launcher:className="com.google.android.maps.MapsActivity" />
+    <!-- Google app -->
+    <favorite 
+        launcher:screen="0" 
+        launcher:packageName="com.google.android.googlequicksearchbox" 
+        launcher:className="com.google.android.googlequicksearchbox.SearchActivity" />
+    <!-- Chrome -->
+    <favorite 
+        launcher:screen="0" 
+        launcher:packageName="com.android.chrome" 
+        launcher:className="com.google.android.apps.chrome.Main" />
+        <!-- Samsung Pay -->
+    <favorite
+        launcher:screen="0" 
+        launcher:packageName="com.samsung.android.spay" 
+        launcher:className="com.samsung.android.spay.ui.SpayMainActivity" />
+    <!-- Facebook -->
+    <favorite 
+        launcher:screen="0" 
+        launcher:packageName="com.facebook.katana" 
+        launcher:className="com.facebook.katana.LoginActivity" />
+    <!-- Contacts -->
+    <favorite 
+        launcher:screen="0" 
+        launcher:packageName="com.samsung.android.contacts" 
+        launcher:className="com.android.dialer.DialtactsActivity" />
+    <!-- Messages -->
+    <favorite 
+        launcher:screen="0" 
+        launcher:packageName="com.samsung.android.messaging" 
+        launcher:className="com.android.mms.ui.ConversationComposer" />
+    <!-- Camera -->
+    <favorite 
+        launcher:screen="0" 
+        launcher:packageName="com.sec.android.app.camera" 
+        launcher:className="com.sec.android.app.camera.Camera" />
+    <!-- Gallery -->
+    <favorite 
+        launcher:screen="0" 
+        launcher:packageName="com.sec.android.gallery3d" 
+        launcher:className="com.sec.android.gallery3d.app.GalleryOpaqueActivity" />
+    <!-- Clock -->
+    <favorite 
+        launcher:screen="0" 
+        launcher:packageName="com.sec.android.app.clockpackage" 
+        launcher:className="com.sec.android.app.clockpackage.ClockPackage" />
+    <!-- Contacts -->
+    <favorite 
+        launcher:screen="0" 
+        launcher:packageName="com.samsung.android.contacts" 
+        launcher:className="com.android.contacts.activities.PeopleActivity" />
+    <!-- Settings -->
+    <favorite 
+        launcher:screen="0" 
+        launcher:packageName="com.android.settings" 
+        launcher:className="com.android.settings.Settings" />
+    <!-- Calendar -->
+    <favorite 
+        launcher:screen="0" 
+        launcher:packageName="com.samsung.android.calendar" 
+        launcher:className="com.android.calendar.AllInOneActivity" />
+    <!-- Calculator -->
+    <favorite 
+        launcher:screen="0" 
+        launcher:packageName="com.sec.android.app.popupcalculator" 
+        launcher:className="com.sec.android.app.popupcalculator.Calculator" />
+    <!-- Google Play Music -->
+    <favorite 
+        launcher:screen="0" 
+        launcher:packageName="com.google.android.music" 
+        launcher:className="com.android.music.activitymanagement.TopLevelActivity" />
+    <!-- Samsung Notes -->
+    <favorite 
+        launcher:screen="0" 
+        launcher:packageName="com.samsung.android.app.notes" 
+        launcher:className="com.samsung.android.app.notes.memolist.MemoListActivity" />
+    <!-- Voice Search -->
+    <favorite
+        launcher:screen="0"
+        launcher:packageName="com.google.android.googlequicksearchbox"
+        launcher:className="com.google.android.googlequicksearchbox.VoiceSearchActivity"
+        launcher:hidden="true"/>
+    <!-- Secure Folder -->
+    <favorite 
+        launcher:screen="0" 
+        launcher:packageName="com.samsung.knox.securefolder" 
+        launcher:className="com.samsung.knox.securefolder.switcher.SecureFolderShortcutActivity" />
+</appOrder>

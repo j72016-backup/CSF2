@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G955F_OXM_SMP_0019</version>
+  <model>
+    <name>SM-G955F</name>
+  </model>
+  <common>
+    <charging>Charge</charging>
+    <networkBearer>All</networkBearer>
+    <optionalApp>checked</optionalApp>
+  </common>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0001</customerEdition>
+    <others>no</others>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <cp>no</cp>
+    <language>no</language>
+    <apps>no</apps>
+    <resources>no</resources>
+    <defaultWorkspace>yes</defaultWorkspace>
+    <defaultApplicationOrder>yes</defaultApplicationOrder>
+  </catalog>
+  <carrierList>
+    <carrierCount>4</carrierCount>
+    <carrier>
+      <mcc>262</mcc>
+      <mnc>01</mnc>
+      <networkName>Telekom.de</networkName>
+    </carrier>
+    <carrier>
+      <mcc>262</mcc>
+      <mnc>03</mnc>
+      <networkName>E-Plus</networkName>
+    </carrier>
+    <carrier>
+      <mcc>262</mcc>
+      <mnc>07</mnc>
+      <networkName>o2 - de</networkName>
+    </carrier>
+    <carrier>
+      <mcc>262</mcc>
+      <mnc>02</mnc>
+      <networkName>Vodafone.de</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>
