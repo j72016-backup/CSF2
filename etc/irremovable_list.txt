@@ -81,8 +81,8 @@
 /system/priv-app/Turbo/Turbo.apk
 /system/fonts/NotoColorEmoji.ttf
 /system/priv-app/wallpaper-res/wallpaper-res.apk
-/system/lib/libhwui.so
 /system/tts/lang_SMT/smt_en_US_f00.am
+/system/lib/libhwui.so
 /system/saiv/face/fr/SAIT_FR11.bin
 /system/priv-app/SamsungSocial/SamsungSocial.apk
 /system/priv-app/RubinVersion23/RubinVersion23.apk
@@ -2682,9 +2682,9 @@
 /system/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt
 /system/vendor/etc/nxp/voiceexperience/WifiCalling/Tx_ControlParams_NARROWBAND_SPEAKER.txt
 /system/vendor/etc/nxp/voiceexperience/mVoIPSec/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt
-/system/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_SPEAKER.txt
 /system/vendor/etc/wlan_common_rc
 /system/vendor/etc/nxp/voiceexperience/mVoIPFMC/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt
+/system/vendor/etc/nxp/voiceexperience/VideoTelephony/Tx_ControlParams_NARROWBAND_SPEAKER.txt
 /system/vendor/etc/init/wifi.rc
 /system/vendor/etc/nxp/voiceexperience/mVoIPHAC/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt
 /system/vendor/etc/nxp/voiceexperience/mVoIP/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt
